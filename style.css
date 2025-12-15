@@ -1,12 +1,20 @@
 ﻿body {
     font-family: Arial, sans-serif;
 }
-.card img {
+
+#staffContainer .card {
+    text-align: center;
+}
+
+#staffContainer img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
     object-fit: cover;
 }
-.card {
-    text-align: center;
+
+canvas {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
 }
